@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+}
+header{
+    width: 100%;
+}
+#plane{
+   display: flex;
+   width: 80%;
+}
+.hi{
+    padding-left:130px;
+}
+.ch{
+    padding-left: 30%;
+    display: flex;
+}
+.di{
+    padding-left: 30px;
+    display: flex;
+}
+i{
+    padding-top: 10px;
+    padding-right: 5px;
+}
+.vi{
+    padding-left: 270px;
+    padding-top: 10px;
+    color: white;
+}
+button{
+    background-color: orangered;
+    padding: 5px;
+}
+.list{
+  
+  float: left;
+    
+}
+ul li{
+    display: inline-block;
+    margin-top: 15px;
+   margin-left: 20px;
+  
+    
+}
+.container{
+    width: 69%;
+    height: 50px;
+    background-color:brown;
+ margin-left: 7%;
+    float: left;
+  
+}
+.sea{
+   padding-left: 920px;
+  
+}
+input{
+    margin-top: 15px;
+}
+.para{
+    background-image: url("https://www.lingholic.com/wp-content/uploads/2013/01/study.jpg");
+}

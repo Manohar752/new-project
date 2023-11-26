@@ -1,0 +1,327 @@
+header{
+ position: sticky;
+ z-index: 1000;
+ top: 0;
+ background-color: white;
+
+}
+#navbarNavDropdown ul
+{
+    font-size: 16px;
+    padding: 0px 0px 0px 20px;
+    width: 100%;
+   
+}
+.get{
+    border: none; 
+    background-color:orange
+}
+.text{
+    padding: 10px 0px;
+}
+.let{
+    border: none;
+     background-color:orange;
+}
+.lorem{
+    font-family: sans-serif; 
+    opacity:0.5;
+}
+
+.left{
+    margin-left: 100px;
+}
+.client{
+    display: flex;
+    justify-content:space-evenly;
+    padding:30px 30px;
+    /* border: 2px solid black; */
+     
+}
+.assign{
+    position: relative;
+ 
+}
+.bus{
+    background-image: url(assignment.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 246px;
+    width: 387px;
+    position: absolute;
+    border-top-right-radius: 77px;
+    border-bottom-left-radius: 69px;
+    border-top: 2px solid orange;
+}
+.car{
+    background-image: url(business.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 245px;
+    position: absolute;
+    background-position: center;
+    top: 126px;
+    left: 301px;
+    border-top-left-radius: 67px;
+    border-bottom-right-radius: 47px;
+    border-top: 2px solid orange;
+}
+/*#assign{
+    border-top-right-radius:70px ;
+    border-bottom-left-radius: 70px;
+    margin-left: 100px;
+    position: relative;
+    border-top: 2px solid orange;
+    
+}
+.main{
+    width: 100%;
+    height:400px;
+}
+#bus{
+    position: relative;
+    
+    left:330px;
+    bottom: 200px;
+    border-top-left-radius:70px ;
+    border-bottom-right-radius: 70px;
+   
+   border-top: 2px solid orange;
+}*/
+.blue{
+background-image: url("https://img.freepik.com/premium-vector/abstract-gradient-horizontal-background_1340-16530.jpg");
+    color: white;
+    padding:50px;
+/* padding-top: 40px; */
+background-repeat: no-repeat;
+background-size: cover;
+}
+i{
+    color:orange;
+    /* margin-right:10px; */
+}
+.c{
+    border: none;
+     background-color:orange;
+}
+.p{
+    background-color:transparent; 
+    color:orange; 
+    border:1px solid orange;
+}
+.h{
+    padding: 20px 0px;
+}
+
+#shop{
+    color: white;
+}
+.pad{
+    margin: 30px;
+    
+}
+
+.dinesh{
+  border: 2px solid red;
+}
+#box{
+    display: flex;
+    flex-direction: column;
+   margin: 5px;
+  height: 150px;
+ align-items: center;
+   padding: 20px;
+   justify-content: center;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.chandu{
+    border: 1px solid  #d0d3d7;
+    margin:auto;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 2px 2px 2px  #d0d3d7;
+}
+.why{
+    padding: 40px;
+
+}
+.button{
+    background-image: url("blue1.jpg");
+    color: white;
+
+    padding:20px;
+    height: 300px;
+    display: flex;
+    align-items:center;
+    
+
+    
+}
+.contact{
+    display: flex;
+   width: 100%;
+    justify-content: center;
+}
+.ttt{
+    padding: 50px;
+  
+}
+.pro{
+    margin-left: 100px;
+}
+
+
+.size{
+    font-family: sans-serif;
+    opacity: 0.5;
+}
+.ppp{
+
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  padding: 0px 40px;
+ 
+  border-color:#d0d3d7;
+
+}
+.us{
+    padding: 0px 40px;
+    margin-left:-20px ;
+    flex-wrap: nowrap;
+    border-left:2px solid black;
+    border-color:#d0d3d7;
+}
+.rrr{
+   padding: 0px 60px;
+    border-right: 2px solid black;
+    
+    border-color:#d0d3d7;
+
+    
+}
+.flex{
+    display: flex;
+   justify-content: center;
+   padding: 0px 0px 20px 0px;
+
+}
+#bg-text
+{
+   
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    font-size: 150px;
+    opacity: 0.1;
+    
+}
+.sublevel_content{
+    position: relative;
+}
+.watermark{
+    padding: 40px;
+  
+}
+#para{
+    color: black;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.two{
+    margin-left: 40px;
+}
+.over{
+   padding: 5%;
+text-align: center;
+   background-color:#d0d3d7;
+
+}
+.name{
+    display: flex;
+    width: 100%;
+    justify-content:center;
+
+}
+
+
+.qqq{
+   /* border: 2px solid black;   */
+   padding: 20px;
+
+}
+#boxes{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 30px;
+   padding: 20px;
+}
+.bottom{
+    background-image: url("https://img.freepik.com/premium-vector/abstract-gradient-horizontal-background_1340-16530.jpg");
+  padding: 80px;
+  color:white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.vid{
+    padding: 40px;
+  
+}
+.video{
+    list-style-type: none;
+  /* margin-top: 10px;*/
+  padding: 10px 0px;
+}
+.footer{
+        width: 100%;
+        display: flex;
+        justify-content: start;
+       
+       text-align: center;
+    
+       
+}
+.down{
+
+   
+    color: #d0d3d7;
+    opacity: 0.5;
+}
+
+.down3{
+    color: #d0d3d7;
+    opacity:0.5;
+}
+.ddd{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* width: 200px; */
+    padding: 0px 100px;
+}
+.vi{
+    padding: 10px;
+    position: relative;
+}
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {...}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }

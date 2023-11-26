@@ -1,0 +1,15 @@
+#vehicle{
+    list-style-image: url(flower.png);
+}
+#student{
+    list-style-type:upper-roman;
+}
+#p1{
+    background-color:aqua;
+    display: inline;
+}
+#p2{
+    background-color: brown;
+}div{
+    background-color: brown;
+}

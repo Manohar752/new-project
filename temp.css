@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    font-family: 'Gabarito', sans-serif;
+}
+body{
+    background-image: url("https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149008629.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ppp{
+    background-color:navy;
+    height: 50px;
+}
+
+.cha{ 
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+   color: white
+}
+.hicons{
+    display: flex;
+    margin-left:80% ;
+    font-size: 20px;
+    margin-top: -25px;
+  width: 300px;
+   padding-right: 20px;
+    justify-content: space-evenly;
+   
+}
+
+.kar{ 
+   font-size: 20px;
+   color:white;
+   width: 60%;
+    margin: auto;
+  text-transform: capitalize;
+    margin-left:28%;
+
+}
+li  {
+    float: left;
+   list-style-type: none;
+   padding-right: 10px;
+  margin-left: 30px;
+  margin: auto;
+ 
+
+}
+.viv{
+    width: 300px;
+    color:white;
+    height: 40px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.mmm{
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+
+.kar a{
+    text-decoration: none;
+padding: 6px;
+color: white;
+border-bottom: 1px solid white;
+padding-bottom: 26px;
+}
+a:hover{
+    color: brown;
+    border-bottom: 1px solid brown;
+
+}
+.boo{
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    font-size: 45px;
+}
+
+ 

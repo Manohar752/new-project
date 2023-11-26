@@ -1,0 +1,111 @@
+.bg{
+    background-image: url(back1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    /* opacity: 0.7;  */
+    align-items: center;
+}
+.body::after{
+    opacity: 0.5;
+}
+.first{
+    color:white;
+    /* background-color: transparent; */
+    background: rgba(0, 0, 0,0.2);
+}
+.hp{
+    padding: 20px;
+    text-align: center;
+}
+ul{
+    list-style-type: circle;
+    margin-top: 50px;
+}
+.second{
+    background-color: aliceblue;
+    padding: 40px;
+}
+.but{
+    margin: auto;
+}
+b{
+    text-transform: uppercase;
+}
+.form-control{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+     border-bottom: 2px solid gray; 
+    background-color: transparent;
+    border-radius: 0%;
+}
+.form-control:focus {
+    color: var(--bs-body-color);
+    /* background-color: var(--bs-body-bg); */
+    border-color: #86b7fe;
+    outline: 0;
+    /* box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25); */
+}
+.bt{
+    background-color: #62cfc0;
+    border-radius: 25%;
+    /* height: 80px; */
+    color: white;
+    width: 80px;
+}
+#pp{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+#place{
+    font-weight: bold;
+    color: black;
+}
+.dont{
+    text-decoration: none;
+    color: gray;
+    text-align: end;
+    text-align: end;
+    position: relative;
+    display: block;
+    top: -25px;
+}
+.bbb{
+    border: none;
+     background-color:transparent;
+     color:aqua;
+     font-size: x-large;
+}
+#place::placeholder {
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+  .forgot{
+    position: relative;
+    text-decoration: none;
+    top: -30px;
+    color: gray;
+    display: block;
+    /* left: -15px; */
+    text-align: end;
+}
+.body{
+    /* position:relative; */
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.icon{
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    margin-top: 40px;
+    font-size: 30px;
+}
+li{
+    padding:5px 0px;
+   
+}
