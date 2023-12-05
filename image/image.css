@@ -43,14 +43,25 @@ justify-content: center;
     position: absolute;
     left: 20px;
 }
+.content{
+    display: flex;
+    align-items: center;
+}
 .next-box{
     display: flex;
     justify-content: end;
     align-items: center;
 }
+.nt{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
 .next{
     /* border: 1px solid #666; */
     border-radius: 30px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
     width: 150px;
     padding: 4px;
     background: #fff;

@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+.acres{
+display: flex;
+align-items: center;
+}
+.image{
+    background: url("hyd.jpg");
+    height:340px;
+    width: 1880px;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.nav1{
+    /* display: flex; */
+
+}
+
+.SecondNav-box{
+    position: relative;
+    /* display: flex; */
+    align-items: center;
+    top: 197px;
+    z-index: 1;
+    left: 168px;
+    /* border: 0px solid black; */
+    width: max-content;
+    height: 129px;
+    /* border-radius: 0%; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: white;
+}
+#myTab{
+    height: 69px;
+}
+.resident{
+    /* border-right: 1px solid #EBECF0; */
+    padding: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
+}
+.dropdown-toggle::after {
+    /* display: inline-block; */
+    margin-left: 0.255em;
+}
+.nav-items{
+    margin: auto;
+    padding: 0 31px;
+}
+.nav-linkss{
+    width:160px;
+}
+.recent{
+   
+    position: relative;
+    top: 75px;
+    left: 285px;
+}
+.nav-item.dropdown{
+    display: flex;
+    align-items: center;
+    /* position: absolute; */
+}
+.nav-linkss.dropdown-toggle{
+    border-right: 1px solid #EBECF0;
+}
+.search{
+    border: none;
+}
+.locate-box{
+    justify-content: end;
+}
+.locate{
+    /* display: flex; */
+}
+.search1{
+    border: none;
+    background-color: aqua;
+}
+.buyed{
+    border-radius: 20px;
+    width: 250px;
+}
+.continue{
+    font-weight: 700;
+    color: #8993A4;
+}
