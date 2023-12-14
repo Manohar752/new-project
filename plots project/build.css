@@ -17,11 +17,12 @@ align-items: center;
     width: 1880px;
     background-repeat:no-repeat;
     background-position: center;
+    margin-bottom: 75px;
 }
-.nav1{
-    /* display: flex; */
+/* .nav1{
+    display: flex;
 
-}
+} */
 
 .SecondNav-box{
     position: relative;
@@ -59,14 +60,22 @@ align-items: center;
     margin: auto;
     padding: 0 31px;
 }
+.nav-link1{
+    color: white;
+    opacity:0.8;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    padding: 0 20px;
+}
 .nav-linkss{
     width:160px;
 }
 .recent{
-   
-    position: relative;
-    top: 75px;
-    left: 285px;
+    /* left: 285px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .nav-item.dropdown{
     display: flex;
@@ -78,17 +87,26 @@ align-items: center;
 }
 .search{
     border: none;
+    width: 60%;
 }
-.locate-box{
+/* .location1{
+    display: flex;
+    align-items: center;
     justify-content: end;
-}
-.locate{
-    /* display: flex; */
-}
+    width: 50%;
+    text-align: end;
+} */
+/* .locate{
+    display: flex;
+} */
 .search1{
     border: none;
     background-color: aqua;
 }
+ .carousel-item.active{
+    display: flex;
+    width: 75%;
+} 
 .buyed{
     border-radius: 20px;
     width: 250px;
@@ -96,4 +114,16 @@ align-items: center;
 .continue{
     font-weight: 700;
     color: #8993A4;
+}
+.styles{
+    position: inherit;
+}
+.tab-box{
+    border: 1px solid black;
+    width: max-content;
+    /* border-radius: 20%; */
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
 }

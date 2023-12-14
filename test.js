@@ -1,16 +1,67 @@
-//This program is written by Manohar// 
+// This program is written by Manohar// 
 
-
-function SumofNumbers (n){
-
-    let number = 0
-    for( let i=1; i<=n; i++){
-        number = number+i
-    }
-    document.write(number + "<br>")
+let x=function (n1,n2){
+    let sum = n1+n2
+    return sum
 }
-SumofNumbers(10)
-SumofNumbers(9)
-SumofNumbers(8)
-SumofNumbers(7)
-SumofNumbers(6)
+let i = x(10,20)
+document.write(i)
+
+
+
+
+// This program is written by Manohar// 
+
+function isPrime(num)
+{
+    let value=0
+    let i=1
+
+    for (i=1;i<=num;i++)
+    {
+        if(num % i === 0)
+        {
+            value++
+        }
+        
+    }
+    if (value===2)
+    {
+        return num
+    }
+}  
+    function filter( numbers,fn)
+    {
+        let res=[]
+        for( let x in numbers)
+        {
+            if (fn(x))
+            {
+                res.push(x)
+            }
+        }
+    
+    return res
+    }
+
+
+
+
+
+
+
+const numbers = [ 11,20,3,4,50,6,7,8,9,20]
+
+let evenArr = []
+
+   let isEven = ((num)=>
+   {
+      return num % 2 === 0
+   }
+   )
+   
+   
+
+newArr = numbers.filter(isEven)
+ 
+console.log(newArr)
