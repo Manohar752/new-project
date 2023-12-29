@@ -566,20 +566,25 @@ margin: auto;
     background-color: transparent;
    
 }
-#pills-home-tab:hover{
+#pills-home-tab:active{
     color: blueviolet;
-    border-bottom:5px solid blueviolet;
-    border-radius: 0%;
-}
+    /* border-bottom:5px solid blueviolet;
+    border-radius: 0%;*/
+}  
 #pills-home2-tab{
     color:gray;
     background-color: transparent;
    
 }
-#pills-home2-tab:hover{
+ #pills-home2-tab:active{
     color: blueviolet;
-    border-bottom:5px solid blueviolet;
-    border-radius: 0%;
+    /* border-bottom:5px solid blueviolet;
+    border-radius: 0%; */
+} 
+.students{
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
 .button{
     background-color:rgb(127, 251, 255);
@@ -607,8 +612,8 @@ margin: auto;
    
 }
 
-#pills-home3-tab:hover{
-   text-decoration: underline;
+#pills-home3-tab:active{
+   /* text-decoration: underline; */
     color: blueviolet;
 }
 #pills-home4-tab{
@@ -617,10 +622,11 @@ margin: auto;
    
 }
 
-#pills-home4-tab:hover{
-   text-decoration: underline;
-    color: blueviolet;
+ #pills-home4-tab:active{
+   /* text-decoration: underline; */
+    color: blueviolet; 
 }
+
 #pills-tab{
     padding: 10px;
 }

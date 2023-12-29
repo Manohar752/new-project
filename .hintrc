@@ -3,32 +3,23 @@
     "development"
   ],
   "hints": {
-    "axe/forms": [
-      "default",
-      {
-        "label": "off",
-        "select-name": "off"
-      }
-    ],
     "no-inline-styles": "off",
-    "axe/structure": [
-      "default",
-      {
-        "listitem": "off",
-        "list": "off"
-      }
-    ],
     "axe/name-role-value": [
       "default",
       {
-        "link-name": "off",
-        "button-name": "off"
+        "link-name": "off"
       }
     ],
-    "axe/text-alternatives": [
+    "axe/structure": [
       "default",
       {
-        "image-alt": "off"
+        "list": "off"
+      }
+    ],
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
       }
     ],
     "axe/parsing": [
@@ -41,12 +32,6 @@
       "default",
       {
         "nested-interactive": "off"
-      }
-    ],
-    "axe/aria": [
-      "default",
-      {
-        "aria-valid-attr-value": "off"
       }
     ]
   }
