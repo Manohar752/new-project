@@ -3,6 +3,14 @@
     "development"
   ],
   "hints": {
-    "axe/parsing": "off"
+    "axe/parsing": "off",
+    "axe/forms": "off",
+    "no-inline-styles": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ]
   }
 }

@@ -5,6 +5,10 @@ header{
  background-color: white;
 
 }
+body{
+    width: 100%;
+    height: 100vh;
+}
 #navbarNavDropdown ul
 {
     font-size: 16px;
@@ -17,6 +21,9 @@ header{
     background-color:orange
 }
 .text{
+    padding: 10px 0px;
+}
+.text-p{
     padding: 10px 0px;
 }
 .let{
@@ -305,8 +312,131 @@ text-align: center;
 .fa-brands{
     padding: 0 10px;
 }
+/* .video-1{
+    width: 450px;
+} */
 .vi{
     padding: 10px;
     position: relative;
 }
 
+
+
+@media (max-width:420px) 
+{
+    .text {
+        padding: 10px 0px;
+        font-size: 18px;
+    }
+    .text-p {
+        padding: 10px 0px;
+        font-size: 12px;
+    }
+    .get {
+        border: none;
+        background-color: orange;
+        font-size: 14px;
+    }
+    #shop {
+        color: white;
+        font-size: 14px;
+    }
+     h3 {
+        /* font-size: calc(1.3rem + .6vw); */
+        font-size: 18px;
+    }
+    .us {
+        padding: 0px 28px;
+        /* margin-left: -20px; */
+        /* font-size: 12px; */
+        flex-wrap: nowrap;
+        border-left: 2px solid black;
+        border-color: #d0d3d7;
+    }
+    .ppp {
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+        padding: 0px 15px;
+        border-color: #d0d3d7;
+    }
+    .rrr {
+        padding: 0px 15px;
+        border-right: 2px solid black;
+        border-color: #d0d3d7;
+    }
+    .lorem {
+        font-family: sans-serif;
+        opacity: 0.5;
+        font-size: 12px;
+    }
+    .video-1{
+        width: 300px;
+    }
+
+}
+@media (max-width:860px) {
+    .car {
+        background-image: url(business.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 180px;
+        width: 245px;
+        position: absolute;
+        background-position: center;
+        top: 126px;
+        left: 120px;
+        border-top-left-radius: 67px;
+        border-bottom-right-radius: 47px;
+        border-top: 2px solid orange;
+    }
+    .bus {
+        background-image: url(assignment.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 190px;
+        width: 260px;
+        position: absolute;
+        border-top-right-radius: 77px;
+        border-bottom-left-radius: 69px;
+        border-top: 2px solid orange;
+    }
+} 
+@media (max-width:766px){
+
+   
+.car {
+        background-image: url(business.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 110px;
+        width: 135px;
+        position: absolute;
+        background-position: center;
+        top: 87px;
+        display: none;
+             left: 0px; 
+    border-top-left-radius: 67px;
+    border-bottom-right-radius: 47px;
+    border-top: 2px solid orange;
+}
+
+.bus {
+    background-image: url(assignment.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15px;
+    display: none;
+    width: 169px;
+    position: absolute;
+    border-top-right-radius: 77px;
+    border-bottom-left-radius: 69px;
+    border-top: 2px solid orange;
+}
+}
+@media (max-width:990px) {
+    .c {
+        border: none;
+        background-color: orange;
+        margin-bottom: 5px;
+    }
+}
