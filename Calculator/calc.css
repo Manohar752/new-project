@@ -1,0 +1,202 @@
+body {
+    background-color: #56626F;
+    text-align: center;
+}
+h1{
+    color: aqua;
+    font-weight:500 ;
+    text-shadow: 2px 2px 4px rgba(255, 0, 255, 1.14);
+}
+.container {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-box{
+    display: flex;
+    position: relative;
+    padding: 5px;
+    width: 100%;
+    /* height: 30px; */
+    /* background: aqua; */
+    /* flex-direction: column-reverse; */
+    justify-content: space-around;
+}
+.txt:focus{
+    border: none;
+    outline: none;
+    /* background-color: transparent; */
+}
+.txt{
+    width: 35vmin;
+    /* position: absolute; */
+    /* right: 48px; */
+    /* top: -10px; */
+    height: 4vmin;
+    font-size: 20px;
+    color: black;
+    text-align: end;
+    box-shadow: 0px 0px 2px 0px black;
+}
+.btn{
+    width: 8vmin;
+    height: 4vmin;
+    cursor: pointer;
+    background: rgb(230, 56, 56);
+    /* padding: 6px; */
+    /* /* position: absolute; */
+}
+.boxes{
+    width: 100%;
+}
+
+
+.calculator{
+    height: 30vmin;
+    width: 65vmin;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 1.15);
+}
+
+.box{
+    height:5vmin;
+    width: 15vmin;
+    cursor: pointer;
+    /* border-radius: 1rem; */
+    /* border: none; */
+    margin: 2px;
+    box-shadow: 0px 0px 2px 0px black;
+}
+@media screen and (max-width: 558px) {
+    body {
+      /* background-color: lightgreen; */
+      width: 100vw;
+      height: 100vh;
+    }
+    .box{
+        height:6vmin;
+        width: 14vmin;
+        cursor: pointer;
+        /* border-radius: 1rem; */
+        /* border: none; */
+        margin: 2px;
+        box-shadow: 0px 0px 2px 0px black;
+    }
+    .calculator{
+        height: 36vmin;
+    }
+  }
+
+
+  @media screen and (max-width: 430px) {
+    body {
+      /* background-color: lightgreen; */
+      width: 100vw;
+      height: 100vh;
+    }
+    .box{
+        height: 5vmin;
+        width: 13vmin;
+        font-size: 14px;
+        cursor: pointer;
+        text-align: center;
+        /* border-radius: 1rem; */
+        /* border: none; */
+        margin: 2px;
+        box-shadow: 0px 0px 2px 0px black;
+    }
+    .calculator{
+        height: 32vmin;
+    }
+    .btn {
+        width: 8vmin ;
+        height: 5vmin;
+        cursor: pointer;
+        background: rgb(230, 56, 56);
+        /* padding: 6px; */
+    }
+  }
+
+
+  @media screen and (max-width: 280px) {
+    body {
+      /* background-color: lightgreen; */
+      width: 100vw;
+      height: 100vh;
+    }
+    .txt {
+        width: 35vmin;
+        /* position: absolute; */
+        /* right: 48px; */
+        /* top: -10px; */
+        height: 6vmin;
+        font-size: 20px;
+        color: black;
+        text-align: end;
+        box-shadow: 0px 0px 2px 0px black;
+    }
+    .box {
+        height: 8vmin;
+        width: 15vmin;
+        font-size: 14px;
+        cursor: pointer;
+        text-align: center;
+        /* border-radius: 1rem; */
+        /* border: none; */
+        margin: 2px;
+        box-shadow: 0px 0px 2px 0px black;
+    }
+    .calculator{
+        height: 50vmin;
+        width: 75vmin;
+    }
+    .btn {
+        width: 14vmin;
+        height: 8vmin;
+        text-align: center;
+        cursor: pointer;
+    }
+  }
+
+
+  
+  @media screen and (max-width: 375px) {
+    body {
+      /* background-color: lightgreen; */
+      width: 100vw;
+      height: 100vh;
+    }
+    .txt {
+        width: 35vmin;
+        /* position: absolute; */
+        /* right: 48px; */
+        /* top: -10px; */
+        height: 4vmin;
+        font-size: 20px;
+        color: black;
+        text-align: end;
+        box-shadow: 0px 0px 2px 0px black;
+    }
+    .box {
+        height: 7vmin;
+        width: 15vmin;
+        font-size: 14px;
+        cursor: pointer;
+        text-align: center;
+        /* border-radius: 1rem; */
+        /* border: none; */
+        margin: 2px;
+        box-shadow: 0px 0px 2px 0px black;
+    }
+    .calculator{
+        height: 45vmin;
+        width: 75vmin;
+    }
+    .btn {
+        width: 11vmin;
+        height: 6vmin;
+        text-align: center;
+        cursor: pointer;
+    }
+  }

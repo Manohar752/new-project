@@ -134,32 +134,70 @@
 
 
 
-// Color Picker*********************************************
-const myButton = document.querySelector("#btn")
-const myBody = document.body
-const myHead = document.querySelector("h2")
-// const myColor= `(${red},${green},${blue})`
-console.dir(myHead)
+// // Color Picker*********************************************
+// const myButton = document.querySelector("#btn")
+// const myBody = document.body
+// const myHead = document.querySelector("h2")
+// // const myColor= `(${red},${green},${blue})`
+// // console.dir(myHead)
+ 
+
+
+// function randomColorGenarator(){ 
+
+// console.log(myButton);
+
+// const red = Math.floor(Math.random()*256)
+// const green = Math.floor(Math.random()*256)
+// const blue = Math.floor(Math.random()*256)
+
+
+// const rgb = `rgb(${red},${green},${blue})`
+// return rgb
+// }
+
+// myButton.addEventListener("click",()=>{
+//   let randomColor =randomColorGenarator()
+  
+//   myBody.style.backgroundColor= randomColor;
+//   myHead.style.color = "black";
+//   myHead.textContent= randomColor;
+// })
 
 
 
-function randomColorGenarator(){
 
-console.log(myButton);
+// const myBtn = document.querySelector("#btn")
 
-const red = Math.floor(Math.random()*256)
-const green = Math.floor(Math.random()*256)
-const blue = Math.floor(Math.random()*256)
+// function myFunc(){
+// const myInput = document.querySelector(".input").value
+// const myHead = document.querySelector("#head")
+// myHead.textContent = `${myInput}`
+// }
 
 
-const rgb = `rgb(${red},${green},${blue})`
-return rgb
+// myBtn.addEventListener("click",myFunc)
+
+
+
+let myBtn = document.querySelector("#btn")
+
+
+let body = document.querySelector("body");
+let myMode = "light";
+
+
+myBtn.addEventListener("click",()=>{
+if(myMode ==="light"){
+   
+    myMode ="dark";
+    body.classList.add("dark");
+    body.classList.remove("light");
+}else{
+    myMode ="light";
+    body.classList.add("light");
+    body.classList.remove("dark");
 }
 
-myButton.addEventListener("click",()=>{
-  let randomColor =randomColorGenarator()
-  
-  myBody.style.backgroundColor= randomColor;
-  myHead.style.color = "black";
-  myHead.textContent= randomColor;
-})
+console.log(myMode);
+});

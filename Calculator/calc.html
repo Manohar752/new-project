@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    
+<div class="container">
+    <div><h1>Calculator</h1></div>
+    <div class="calculator">
+                <div class="text-box">
+                        <input type="text" class="txt" id="display">
+                        <input type="button" onclick ="display.value = ' '" class="btn" id="c" value="C">
+                        <button type="button" onclick ="display.value = display.value.slice(0, -1)" class="btn" id="del">Del</button>
+                </div>
+                <div class="boxes">
+                        <button class="box" onclick ="display.value += '7'">7</button>
+                        <button class="box" onclick ="display.value += '8'">8</button>
+                        <button class="box" onclick ="display.value += '9'">9</button>
+                        <button class="box" onclick ="display.value += '/'" style="background-color: rgb(218, 240, 118);">/ </button>
+
+
+
+                        <button class="box" onclick ="display.value += '4'">4</button>
+                        <button class="box" onclick ="display.value += '5'">5</button>
+                        <button class="box" onclick ="display.value += '6'">6</button>
+                        <button class="box" onclick ="display.value += '*'" style="background-color: rgb(218, 240, 118);">*</button>
+
+
+
+                        <button class="box" onclick ="display.value += '1'">1</button>
+                        <button class="box" onclick ="display.value += '2'">2</button>
+                        <button class="box" onclick ="display.value += '3'">3</button>
+                        <button class="box" onclick ="display.value += '-'" style="background-color: rgb(218, 240, 118);"> -</button>
+
+
+                        <button class="box" onclick ="display.value += '0'">0</button>
+                        <button class="box" onclick ="display.value += '.'">.</button>
+                        <button class="box" onclick ="display.value = eval(display.value)" style="background-color: rgb(87, 171, 231);">=</button>
+                        <button class="box" onclick ="display.value += '+'" style="background-color: rgb(218, 240, 118);">+</button>
+                </div>
+    </div>
+</div>
+
+ 
+
+    <script src="calc.js"></script>
+</body>
+</html>
