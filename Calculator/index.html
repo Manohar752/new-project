@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="icon" type="image/x-icon" href="475497.png">
     <link rel="stylesheet" href="calc.css">
 </head>
 <body>
@@ -12,7 +13,7 @@
     <div><h1>Calculator</h1></div>
     <div class="calculator">
                 <div class="text-box">
-                        <input type="text" class="txt" id="display">
+                        <input type="text" class="txt" id="display" readonly>
                         <input type="button" onclick ="display.value = ' '" class="btn" id="c" value="C">
                         <button type="button" onclick ="display.value = display.value.slice(0, -1)" class="btn" id="del">Del</button>
                 </div>
